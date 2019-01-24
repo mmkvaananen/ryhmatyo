@@ -1,0 +1,52 @@
+body {
+    background-color: #E3E6E7;
+}
+
+h1 {
+    color: rgb(45, 139, 102)  ;
+    text-align: center;
+    margin: 20px;
+    -webkit-text-stroke: .5px  rgb(0, 196, 173);
+}
+
+.container {
+
+    padding-bottom: 10%;
+}
+
+.card {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+@media (min-width: 576px) {
+    .container {
+        padding: 0, 10%;
+
+    }
+}
+
+img {
+    width: 50%;
+ 
+    border-radius: 50%;
+    transition: .5s ease;
+}
+
+img:hover {
+
+    opacity: 0.7;
+}
+
+button {
+    font-weight: bold !important;
+    color: black !important;
+    font-size: 1.3em !important;
+}
+
+button:hover, button:focus {
+    text-decoration: none !important;
+}
+
+.card-header {
+    background: linear-gradient(to right, #45CC96, #70FFEE)
+}
